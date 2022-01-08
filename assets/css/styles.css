@@ -31,6 +31,10 @@
   }
 }
 
+p.contract {
+  text-align: center;
+}
+
 /* beta */
 .alert {
   padding: 20px;
