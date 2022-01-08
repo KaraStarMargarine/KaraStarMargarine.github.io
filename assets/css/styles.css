@@ -51,18 +51,20 @@ table {
   border-spacing: 0;
   width: 100%;
   border: 1px solid #ddd;
+  color: white;
 }
 
 th, td {
   text-align: center;
   padding: 16px;
   color: white;
-  font-size: 10px;
+  font-size: 5px;
 }
 
 th:first-child, td:first-child {
   text-align: left;
 }
+
 
 /* menu */
 .links {
