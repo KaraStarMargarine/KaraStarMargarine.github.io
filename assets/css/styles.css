@@ -18,6 +18,52 @@
     z-index: 1000;
 }
 
+/* beta */
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* Thick red border */
+hr.hr1 {
+  border: 1px solid red;
+}
+
+/* table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+  color: white;
+  font-size: 10px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
 /* menu */
 .links {
   list-style-type: none;
