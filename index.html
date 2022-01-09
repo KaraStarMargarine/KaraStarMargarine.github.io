@@ -156,8 +156,8 @@
          <p class="contract" style="color: white;">&#8226;<img src="https://static.karastar.com/web/img/icon_03.4a6536a1.png" width="50" height="50"> KARA: 0x1e155e26085Be757780B45a5420D9f16a938f76b</p>
          </table>
          <div class="text-center">
-           <button style="margin: 10px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;" class="btn btn-primary shadow-none" onclick="copyUMY()">Copy UMY contract</button>
-           <button style="margin: 10px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;" class="btn btn-primary shadow-none" onclick="copyKARA()">Copy KARA contract</button>
+           <button style="margin: 10px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;" class="btn btn-primary shadow-none" onclick="copyUMY('umy')">Copy UMY contract</button>
+           <button style="margin: 10px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;" class="btn btn-primary shadow-none" onclick="copyKARA(kara)">Copy KARA contract</button>
          </div>
         </div>
             <div class="intro">
@@ -435,6 +435,17 @@ function copyKARA() {
   
   /* Alert the copied text */
   alert("Copied 0x1e155e26085Be757780B45a5420D9f16a938f76b");
+}
+</script>
+<script>
+function copyUMY(id)
+{
+var r = document.createRange();
+r.selectNode(document.getElementById(id));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
 }
 </script>
 </body>
