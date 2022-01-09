@@ -18,6 +18,11 @@
     z-index: 1000;
 }
 
+/* karacon */ 
+.karaCon {
+  background-color: #1d1d1e;
+}
+
 /* cKMG */
 /* Hide short text by default (resolution > 1200px) */
 #short-text { display: none; }
