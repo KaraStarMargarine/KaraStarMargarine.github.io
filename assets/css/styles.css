@@ -43,6 +43,13 @@
   div.text-center {
     font-size: 10px;
   }
+
+  #umyBtn {
+    display: none;
+  }
+  #karaBtn {
+    display: none;
+  }
 }
 
 p.contract {
