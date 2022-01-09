@@ -18,6 +18,16 @@
     z-index: 1000;
 }
 
+/* cKMG */
+/* Hide short text by default (resolution > 1200px) */
+#short-text { display: none; }
+
+/* When resolution <= 1200px, hide full text and show short text */
+@media (max-width: 1200px) {
+    #short-text { display: inline-block; }
+    #full-text { display: none; }
+}
+
 /* text */
 @media screen and (min-width: 601px) {
   div.text-center {
