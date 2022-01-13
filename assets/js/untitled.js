@@ -31,16 +31,3 @@ function toggleAccordion() {
 
 items.forEach(item => item.addEventListener('click', toggleAccordion));
 
-// copy mobile
-const umycon = document.querySelector('.karaCon #umyBtn')
-
-function copyUMY() {
-  const textarea = document.createElement('textarea');
-  textarea.setAttribute('readonly', '');
-  textarea.style.position = 'absolute';
-  textarea.value = text.innerText;
-  document.body.appendChild('textare');
-  textarea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textarea)
-}
