@@ -18,6 +18,23 @@
     z-index: 1000;
 }
 
+/* textimg */
+.ads {
+  position: relative;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.textimg {
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  background-color: transparent;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* notif */
 .no-data .arrow {
   position: absolute;
